@@ -73,6 +73,6 @@ python app.py
 
 ## 🤝 Contribution
 - Feel free to contribute by forking the repository and submitting a pull request.
-- 🔗 GitHub: Subhavpathak
-- 📧 Contact: subhavpathak18@gmail.com
+- 🔗 **GitHub**: [Subhavpathak](https://github.com/Subhavpathak)  
+- 📧 **Contact**: [subhavpathak18@gmail.com](mailto:subhavpathak18@gmail.com) 
 

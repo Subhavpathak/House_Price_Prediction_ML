@@ -1,4 +1,4 @@
-# 🏡 House Price Prediction using Machine Learning
+content = """# 🏡 House Price Prediction using Machine Learning
 
 This project predicts house prices based on various features using **Random Forest Regressor**.  
 It includes **data preprocessing, model training, and a Flask-based UI** for user interaction.  
@@ -6,12 +6,9 @@ It includes **data preprocessing, model training, and a Flask-based UI** for use
 ---
 
 ## 📂 Project Structure
-
-
 ---
 
 ## 📊 Dataset Information
-
 - **Source:** [Kaggle - California Housing Prices](https://www.kaggle.com/datasets)  
 - **Size:** ~20,000 samples  
 - **Features Used:**
@@ -19,9 +16,6 @@ It includes **data preprocessing, model training, and a Flask-based UI** for use
   - `median_income`, `households` → Economic factors  
   - `total_rooms`, `total_bedrooms`, `population` → Housing stats  
   - `ocean_proximity` → Categorical feature  
-
----
-
 
 ---
 
@@ -60,44 +54,27 @@ pip install -r requirements.txt
 # 3️⃣ Run Flask app
 python app.py
 
----
+🖥️ UI Overview (Flask)
+✅ User enters features (income, location, rooms, etc.).
+✅ Model predicts house price in real-time.
+✅ Responsive UI using Flask.
 
-## 🖥️ UI Overview (Flask)
-✅ **User enters features** (income, location, rooms, etc.).  
-✅ **Model predicts house price in real-time**.  
-✅ **Responsive UI** using Flask.  
+🔧 Future Improvements
+✅ Improve Model: Try XGBoost for better accuracy.
+✅ Deploy Online: Host on Render or AWS.
+✅ Enhance UI: Make a React frontend instead of Flask.
 
----
+🛠 Technologies Used
+ML: scikit-learn, pandas, numpy
+Backend: Flask, Gunicorn
+Frontend: HTML, CSS, Bootstrap/Tailwind
+🏆 Contributors
+👨‍💻 Subhav Kumar – Data Preprocessing & Flask API & Model Training
+👨‍💻 Kunal Kumar Shaw – UI Development using Flask
+👨‍💻 Sonu Anand – Model Training & Performance Optimization
 
-## 🔧 Future Improvements
-✅ **Improve Model**: Try **XGBoost** for better accuracy.  
-✅ **Deploy Online**: Host on **Render** or **AWS**.  
-✅ **Enhance UI**: Make a **React frontend** instead of Flask.  
-
----
-
-## 🛠 Technologies Used
-- **ML**: `scikit-learn`, `pandas`, `numpy`
-- **Backend**: `Flask`, `Gunicorn`
-- **Frontend**: `HTML`, `CSS`, `Bootstrap/Tailwind`
-
----
-
-## 🏆 Contributors
-👨‍💻 **Subhav Kumar** – Data Preprocessing & Flask API & Model Training
-👨‍💻 **Kunal Kumar Shaw** – UI Development using Flask  
-👨‍💻 **Sonu Anand** – Model Training & Performance Optimization  
-
----
-
-## 🤝 Contribution
-Feel free to contribute by **forking** the repository and submitting a **pull request**.  
-🔗 **GitHub**: [Subhavpathak](https://github.com/Subhavpathak)  
-📧 **Contact**: [subhavpathak18@gamil.com](mailto:subhavpathak18@gmail.com)  
+🤝 Contribution
+Feel free to contribute by forking the repository and submitting a pull request.
+🔗 GitHub: Subhavpathak
+📧 Contact: subhavpathak18@gmail.com
 """
-
-# Write to README.md
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(content)
-
-print("✅ README.md file created successfully!")
